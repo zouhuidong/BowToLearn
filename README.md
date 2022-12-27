@@ -36,3 +36,7 @@
 
 1. Win+R 输入 `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`，回车，会弹出一个文件夹，这就是存放开机自启的程序的快捷方式的目录。
 2. 将程序的快捷方式复制到该目录，ok。
+
+可以做程序内的开机自启设置，但是懒得了，如上操作不麻烦，省的加注册表。
+
+
