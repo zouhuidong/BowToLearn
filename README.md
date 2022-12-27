@@ -3,6 +3,12 @@
 
 设计来自己用的，管理自己在电脑前的生活。
 
+（远古版本：https://github.com/zouhuidong/EyeRestReminder）
+
+## 依赖
+
+EasyX 图形库（https://easyx.cn）和 HiEasyX（已加入项目中，仓库 https://github.com/zouhuidong/HiEasyX）
+
 ## 功能
 
 **普通模式下**
@@ -38,5 +44,3 @@
 2. 将程序的快捷方式复制到该目录，ok。
 
 可以做程序内的开机自启设置，但是懒得了，如上操作不麻烦，省的加注册表。
-
-
