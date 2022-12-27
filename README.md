@@ -3,11 +3,11 @@
 
 设计来自己用的，管理自己在电脑前的生活。
 
-（远古版本：https://github.com/zouhuidong/EyeRestReminder）
+（远古版本：https://github.com/zouhuidong/EyeRestReminder ）
 
 ## 依赖
 
-EasyX 图形库（https://easyx.cn）和 HiEasyX（已加入项目中，仓库 https://github.com/zouhuidong/HiEasyX）
+EasyX 图形库（https://easyx.cn ）和 HiEasyX（已加入项目中，仓库 https://github.com/zouhuidong/HiEasyX）
 
 ## 功能
 
