@@ -1,4 +1,6 @@
 # BowToLearn
+![Downloads](https://img.shields.io/github/downloads/zouhuidong/BowToLearn/total)
+
 躬学系统。一个管理你在家时面向电脑工作和学习的工具
 
 设计来自己用的，管理自己在电脑前的生活。
@@ -7,7 +9,7 @@
 
 ## 依赖
 
-EasyX 图形库（https://easyx.cn ）和 HiEasyX（已加入项目中，仓库 https://github.com/zouhuidong/HiEasyX）
+EasyX 图形库（https://easyx.cn ）和 HiEasyX（已加入项目中，仓库 https://github.com/zouhuidong/HiEasyX ）
 
 ## 功能
 
