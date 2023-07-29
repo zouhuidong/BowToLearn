@@ -1,6 +1,7 @@
 ﻿#include <Windows.h>
 #include <WinUser.h>
 #include <fstream>
+#include "assembly.h"
 #include "HiEasyX.h"
 #include "ini.hpp"
 #include "resource.h"
@@ -678,6 +679,10 @@ int main()
 		SYSTEMTIME stSystime;
 		GetLocalTime(&stSystime);
 
+		// 组件
+		RunAssembly();
+		//////
+
 		// 鼠标不动，开始计时，时长超过阈值后可判定为离开
 		GetCursorPos(&ptCursor);
 		if (ptCursor.x == ptCursorOld.x && ptCursor.y == ptCursorOld.y)
@@ -1089,7 +1094,7 @@ int main()
 
 						hiex::SysButton btnOK(hWndUsePCReminder, 220, 70, 80, 30, L"OK 了~");
 
-						hiex::SysStatic text(hWndUsePCReminder, 10, 80, 200, 30, L"水平可胜发际线？");
+						hiex::SysStatic text(hWndUsePCReminder, 10, 80, 200, 30, L"断妄念，潜心果断");
 						text.Enable(false);
 
 						// 接下来死循环，直到用完电脑。
@@ -1311,10 +1316,10 @@ int main()
 				}
 
 				// 显示名言
-				int nX = 640;
+				int nX = 660;
 				settextstyle(28, 0, L"仿宋");
 				std::wstring wstrWisdom[1] = {
-					L"实力要对得起发际线",
+					L"断妄念，潜心果断",
 				};
 				outtextxy(nX, 420, wstrWisdom[0].c_str());
 			}
